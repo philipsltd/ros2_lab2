@@ -47,6 +47,8 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
     "/home/trsa2024/ros2_lab2/src/sam_bot_description/src"
     "/home/trsa2024/ros2_lab2/src/sam_bot_description/launch"
     "/home/trsa2024/ros2_lab2/src/sam_bot_description/rviz"
+    "/home/trsa2024/ros2_lab2/src/sam_bot_description/config"
+    "/home/trsa2024/ros2_lab2/src/sam_bot_description/world"
     )
 endif()
 
