@@ -1,0 +1,1 @@
+/home/trsa2024/ros2_lab2/src/sam_bot_description/launch/autonomous_navigation_launch.py

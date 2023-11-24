@@ -1,0 +1,2 @@
+Invoking command in '/home/trsa2024/ros2_lab2/build/sam_bot_description': /usr/bin/cmake --build /home/trsa2024/ros2_lab2/build/sam_bot_description -- -j4 -l4
+Invoked command in '/home/trsa2024/ros2_lab2/build/sam_bot_description' returned '2': /usr/bin/cmake --build /home/trsa2024/ros2_lab2/build/sam_bot_description -- -j4 -l4

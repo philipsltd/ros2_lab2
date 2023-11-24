@@ -1,6 +1,6 @@
 set(_AMENT_PACKAGE_NAME "sam_bot_description")
 set(sam_bot_description_VERSION "0.0.0")
-set(sam_bot_description_MAINTAINER "trsa2024 <feduardomorais@gmail.com>")
+set(sam_bot_description_MAINTAINER "trsa2024 <trsa2024@todo.todo>")
 set(sam_bot_description_BUILD_DEPENDS )
 set(sam_bot_description_BUILDTOOL_DEPENDS "ament_cmake")
 set(sam_bot_description_BUILD_EXPORT_DEPENDS )
