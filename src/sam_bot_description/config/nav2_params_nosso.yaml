@@ -1,3 +1,4 @@
+
 amcl:
   ros__parameters:
     use_sim_time: True
@@ -94,7 +95,6 @@ bt_navigator:
     - nav2_planner_selector_bt_node
     - nav2_controller_selector_bt_node
     - nav2_goal_checker_selector_bt_node
-    
 
 bt_navigator_rclcpp_node:
   ros__parameters:
@@ -102,18 +102,20 @@ bt_navigator_rclcpp_node:
 
 controller_server:
   ros__parameters:
-    controller_frequency: 30.0
+    controller_frequency: 50.0 # 30
     FollowPath:
       plugin: "nav2_mppi_controller::MPPIController"
       time_steps: 56
-      model_dt: 0.05
+      model_dt: 0.05 # 0.05
       batch_size: 2000
       vx_std: 0.2
       vy_std: 0.2
       wz_std: 0.4
       vx_max: 0.5
+      # vx_max: 0.8
       vx_min: -0.35
       vy_max: 0.5
+      # vy_max: 0.8
       wz_max: 1.9
       iteration_count: 1
       prune_distance: 1.7
@@ -196,7 +198,7 @@ local_costmap:
   local_costmap:
     ros__parameters:
       update_frequency: 5.0
-      publish_frequency: 2.0
+      publish_frequency: 1.0
       global_frame: odom
       robot_base_frame: base_link
       use_sim_time: True
@@ -204,12 +206,14 @@ local_costmap:
       width: 3
       height: 3
       resolution: 0.05
-      footprint: "[ [0.105, 0.0975], [0.105, -0.0975], [-0.105, -0.0975], [-0.105, 0.0975] ]" #[ [0.21, 0.195], [0.21, -0.195], [-0.21, -0.195], [-0.21, 0.195] ]
+      # footprint: "[ [0.21, 0.195], [0.21, -0.195], [-0.21, -0.195], [-0.21, 0.195] ]"
+      footprint: "[ [0.105, 0.0975], [0.105, -0.0975], [-0.105, -0.0975], [-0.105, 0.0975] ]"
+
       plugins: ["voxel_layer", "inflation_layer"]
       inflation_layer:
         plugin: "nav2_costmap_2d::InflationLayer"
-        cost_scaling_factor: 3.0 # CHANGE 3.0
-        inflation_radius: 1.0 # 0.55 mete mais espetro
+        cost_scaling_factor: 10.0
+        inflation_radius: 0.3
       voxel_layer:
         plugin: "nav2_costmap_2d::VoxelLayer"
         enabled: True
@@ -219,16 +223,16 @@ local_costmap:
         z_voxels: 16
         max_obstacle_height: 2.0
         mark_threshold: 0
-        observation_sources: scan
+        observation_sources: scanSS
         scan:
           topic: /scan
           max_obstacle_height: 2.0
           clearing: True
           marking: True
           data_type: "LaserScan"
-          raytrace_max_range: 3.0 # 3
+          raytrace_max_range: 3.0
           raytrace_min_range: 0.0
-          obstacle_max_range: 2.5 # 2.
+          obstacle_max_range: 2.5
           obstacle_min_range: 0.0
       static_layer:
         map_subscribe_transient_local: True
@@ -262,19 +266,17 @@ global_costmap:
           clearing: True
           marking: True
           data_type: "LaserScan"
-          raytrace_max_range: 2.0 # 3.0
+          raytrace_max_range: 3.0
           raytrace_min_range: 0.0
-          obstacle_max_range: 1.5 # 2.5
+          obstacle_max_range: 2.5
           obstacle_min_range: 0.0
       static_layer:
         plugin: "nav2_costmap_2d::StaticLayer"
         map_subscribe_transient_local: True
-        # inflation_radius: 0.1
       inflation_layer:
         plugin: "nav2_costmap_2d::InflationLayer"
-        cost_scaling_factor: 6.0 # change 3.0
-        inflation_radius: 0.3 # 0.55
-        # wall_thickness: 0.2 # novo
+        cost_scaling_factor: 15.0
+        inflation_radius: 0.8
       always_send_full_costmap: True
   global_costmap_client:
     ros__parameters:
@@ -303,7 +305,7 @@ planner_server:
     planner_plugins: ["GridBased"]
     GridBased:
       plugin: "nav2_navfn_planner/NavfnPlanner"
-      tolerance: 0.5 
+      tolerance: 0.5
       use_astar: false
       allow_unknown: true
 
@@ -323,6 +325,28 @@ recoveries_server:
       plugin: "nav2_recoveries/BackUp"
     wait:
       plugin: "nav2_recoveries/Wait"
+    global_frame: odom
+    robot_base_frame: base_link
+    transform_timeout: 0.1
+    use_sim_time: true
+    simulate_ahead_time: 2.0
+    max_rotational_vel: 1.0
+    min_rotational_vel: 0.4
+    rotational_acc_lim: 3.2
+
+robot_state_publisher:
+  ros__parameters:
+    use_sim_time: True
+
+waypoint_follower:
+  ros__parameters:
+    loop_rate: 20
+    stop_on_failure: false
+    waypoint_task_executor_plugin: "wait_at_waypoint"   
+    wait_at_waypoint:
+      plugin: "nav2_waypoint_follower::WaitAtWaypoint"
+      enabled: True
+      waypoint_pause_duration: 200t"
     global_frame: odom
     robot_base_frame: base_link
     transform_timeout: 0.1
