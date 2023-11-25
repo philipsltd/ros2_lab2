@@ -21,9 +21,9 @@ class NavigationNode(Node):
         # Create a NavigateToPose goal
         goal_pose = PoseStamped()
         goal_pose.header.frame_id = 'map'
-        goal_pose.pose.position.x = -8.037 # Replace with your desired coordinates
-        goal_pose.pose.position.y = 4.484  # Replace with your desired coordinates
-        goal_pose.pose.orientation.w = -3.116  # Replace with your desired coordinates
+        goal_pose.pose.position.x = 4.0 # Replace with your desired coordinates
+        goal_pose.pose.position.y = 0.2  # Replace with your desired coordinates
+        goal_pose.pose.orientation.w = 1.546 # Replace with your desired coordinates
         
         # Send the goal
         self.goal_publisher.publish(goal_pose)

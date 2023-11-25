@@ -6,11 +6,7 @@ Panels:
       Expanded:
         - /Global Options1
         - /Status1
-        - /TF1
-        - /Map1
         - /Map1/Topic1
-        - /global1
-        - /Map2
       Splitter Ratio: 0.5
     Tree Height: 434
 Visualization Manager:
@@ -203,7 +199,7 @@ Visualization Manager:
       Color Scheme: costmap
       Draw Behind: false
       Enabled: true
-      Name: Map
+      Name: local
       Topic:
         Depth: 5
         Durability Policy: Volatile
@@ -292,18 +288,18 @@ Visualization Manager:
         Swap Stereo Eyes: false
         Value: false
       Focal Point:
-        X: 0
-        Y: 0
-        Z: 0
+        X: -2.2076456546783447
+        Y: 1.2488497495651245
+        Z: 0.15385380387306213
       Focal Shape Fixed Size: true
       Focal Shape Size: 0.05000000074505806
       Invert Z Axis: false
       Name: Current View
       Near Clip Distance: 0.009999999776482582
-      Pitch: 0.9253983497619629
+      Pitch: 1.5053977966308594
       Target Frame: <Fixed Frame>
       Value: Orbit (rviz)
-      Yaw: 0.850398063659668
+      Yaw: 1.210397720336914
     Saved: ~
 Window Geometry:
   Displays:
