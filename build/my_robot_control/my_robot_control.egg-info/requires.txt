@@ -1,0 +1,7 @@
+setuptools
+rosdep
+rosinstall_generator
+vcstool
+rosinstall
+ros2pkg
+rosidl_default_generators

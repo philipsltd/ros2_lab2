@@ -1,0 +1,9 @@
+[0.691s] Invoking command in '/home/trsa2024/ros2_lab2/src/robot_control': PYTHONPATH=/home/trsa2024/ros2_lab2/build/my_robot_control/prefix_override:/home/trsa2024/ros2_lab2/install/my_robot_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_robot_control build --build-base /home/trsa2024/ros2_lab2/build/my_robot_control/build install --record /home/trsa2024/ros2_lab2/build/my_robot_control/install.log --single-version-externally-managed
+[0.862s] running egg_info
+[0.874s] writing ../../build/my_robot_control/my_robot_control.egg-info/PKG-INFO
+[0.875s] writing dependency_links to ../../build/my_robot_control/my_robot_control.egg-info/dependency_links.txt
+[0.875s] writing entry points to ../../build/my_robot_control/my_robot_control.egg-info/entry_points.txt
+[0.876s] writing requirements to ../../build/my_robot_control/my_robot_control.egg-info/requires.txt
+[0.876s] writing top-level names to ../../build/my_robot_control/my_robot_control.egg-info/top_level.txt
+[0.888s] error: package directory 'my_robot_control' does not exist
+[0.904s] Invoked command in '/home/trsa2024/ros2_lab2/src/robot_control' returned '1': PYTHONPATH=/home/trsa2024/ros2_lab2/build/my_robot_control/prefix_override:/home/trsa2024/ros2_lab2/install/my_robot_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_robot_control build --build-base /home/trsa2024/ros2_lab2/build/my_robot_control/build install --record /home/trsa2024/ros2_lab2/build/my_robot_control/install.log --single-version-externally-managed

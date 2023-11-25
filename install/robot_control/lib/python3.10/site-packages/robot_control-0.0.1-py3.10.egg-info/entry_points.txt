@@ -1,0 +1,2 @@
+[console_scripts]
+goal_send = robot_control.goal_send:main

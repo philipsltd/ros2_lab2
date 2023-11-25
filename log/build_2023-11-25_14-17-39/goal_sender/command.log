@@ -1,0 +1,6 @@
+Invoking command in '/home/trsa2024/ros2_lab2/build/goal_sender': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/trsa2024/ros2_lab2/src/goal_sender -DCMAKE_INSTALL_PREFIX=/home/trsa2024/ros2_lab2/install/goal_sender
+Invoked command in '/home/trsa2024/ros2_lab2/build/goal_sender' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/trsa2024/ros2_lab2/src/goal_sender -DCMAKE_INSTALL_PREFIX=/home/trsa2024/ros2_lab2/install/goal_sender
+Invoking command in '/home/trsa2024/ros2_lab2/build/goal_sender': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/trsa2024/ros2_lab2/build/goal_sender -- -j4 -l4
+Invoked command in '/home/trsa2024/ros2_lab2/build/goal_sender' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/trsa2024/ros2_lab2/build/goal_sender -- -j4 -l4
+Invoking command in '/home/trsa2024/ros2_lab2/build/goal_sender': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/trsa2024/ros2_lab2/build/goal_sender
+Invoked command in '/home/trsa2024/ros2_lab2/build/goal_sender' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/trsa2024/ros2_lab2/build/goal_sender

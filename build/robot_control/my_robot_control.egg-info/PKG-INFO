@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: my-robot-control
+Version: 0.0.1
+Summary: Your ROS 2 package description
+Maintainer: your_name
+Maintainer-email: your_email@example.com
+License: Apache License 2.0
+Requires-Dist: setuptools
+Requires-Dist: rosdep
+Requires-Dist: rosinstall_generator
+Requires-Dist: vcstool
+Requires-Dist: rosinstall
+Requires-Dist: ros2pkg
+Requires-Dist: rosidl_default_generators

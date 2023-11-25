@@ -1,0 +1,31 @@
+[0.245s] Invoking command in '/home/trsa2024/ros2_lab2/build/sam_bot_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/trsa2024/ros2_lab2/build/sam_bot_description -- -j4 -l4
+[0.313s] Invoked command in '/home/trsa2024/ros2_lab2/build/sam_bot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/trsa2024/ros2_lab2/build/sam_bot_description -- -j4 -l4
+[0.346s] Invoking command in '/home/trsa2024/ros2_lab2/build/sam_bot_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/trsa2024/ros2_lab2/build/sam_bot_description
+[0.355s] -- Install configuration: ""
+[0.357s] -- Execute custom install script
+[0.359s] -- Up-to-date symlink: /home/trsa2024/ros2_lab2/install/sam_bot_description/share/sam_bot_description/src/description/sam_bot_description.urdf
+[0.359s] -- Up-to-date symlink: /home/trsa2024/ros2_lab2/install/sam_bot_description/share/sam_bot_description/src/object_detection.py
+[0.360s] -- Up-to-date symlink: /home/trsa2024/ros2_lab2/install/sam_bot_description/share/sam_bot_description/launch/__pycache__/nav2_navigation_launch.cpython-310.pyc
+[0.360s] -- Up-to-date symlink: /home/trsa2024/ros2_lab2/install/sam_bot_description/share/sam_bot_description/launch/__pycache__/teleop_launch.cpython-310.pyc
+[0.360s] -- Up-to-date symlink: /home/trsa2024/ros2_lab2/install/sam_bot_description/share/sam_bot_description/launch/autonomous_navigation_launch.py
+[0.360s] -- Up-to-date symlink: /home/trsa2024/ros2_lab2/install/sam_bot_description/share/sam_bot_description/launch/display.launch.py
+[0.360s] -- Up-to-date symlink: /home/trsa2024/ros2_lab2/install/sam_bot_description/share/sam_bot_description/rviz/urdf_config.rviz
+[0.361s] -- Up-to-date symlink: /home/trsa2024/ros2_lab2/install/sam_bot_description/share/sam_bot_description/config/ekf.yaml
+[0.361s] -- Up-to-date symlink: /home/trsa2024/ros2_lab2/install/sam_bot_description/share/sam_bot_description/config/nav2_params.yaml
+[0.361s] -- Up-to-date symlink: /home/trsa2024/ros2_lab2/install/sam_bot_description/share/sam_bot_description/world/trsa_two_rooms.world
+[0.362s] -- Up-to-date symlink: /home/trsa2024/ros2_lab2/install/sam_bot_description/share/ament_index/resource_index/package_run_dependencies/sam_bot_description
+[0.362s] -- Up-to-date symlink: /home/trsa2024/ros2_lab2/install/sam_bot_description/share/ament_index/resource_index/parent_prefix_path/sam_bot_description
+[0.363s] -- Up-to-date symlink: /home/trsa2024/ros2_lab2/install/sam_bot_description/share/sam_bot_description/environment/ament_prefix_path.sh
+[0.363s] -- Up-to-date symlink: /home/trsa2024/ros2_lab2/install/sam_bot_description/share/sam_bot_description/environment/ament_prefix_path.dsv
+[0.363s] -- Up-to-date symlink: /home/trsa2024/ros2_lab2/install/sam_bot_description/share/sam_bot_description/environment/path.sh
+[0.363s] -- Up-to-date symlink: /home/trsa2024/ros2_lab2/install/sam_bot_description/share/sam_bot_description/environment/path.dsv
+[0.364s] -- Up-to-date symlink: /home/trsa2024/ros2_lab2/install/sam_bot_description/share/sam_bot_description/local_setup.bash
+[0.364s] -- Up-to-date symlink: /home/trsa2024/ros2_lab2/install/sam_bot_description/share/sam_bot_description/local_setup.sh
+[0.365s] -- Up-to-date symlink: /home/trsa2024/ros2_lab2/install/sam_bot_description/share/sam_bot_description/local_setup.zsh
+[0.365s] -- Up-to-date symlink: /home/trsa2024/ros2_lab2/install/sam_bot_description/share/sam_bot_description/local_setup.dsv
+[0.366s] -- Symlinking: /home/trsa2024/ros2_lab2/install/sam_bot_description/share/sam_bot_description/package.dsv
+[0.373s] -- Up-to-date symlink: /home/trsa2024/ros2_lab2/install/sam_bot_description/share/ament_index/resource_index/packages/sam_bot_description
+[0.374s] -- Up-to-date symlink: /home/trsa2024/ros2_lab2/install/sam_bot_description/share/sam_bot_description/cmake/sam_bot_descriptionConfig.cmake
+[0.374s] -- Up-to-date symlink: /home/trsa2024/ros2_lab2/install/sam_bot_description/share/sam_bot_description/cmake/sam_bot_descriptionConfig-version.cmake
+[0.374s] -- Up-to-date symlink: /home/trsa2024/ros2_lab2/install/sam_bot_description/share/sam_bot_description/package.xml
+[0.376s] Invoked command in '/home/trsa2024/ros2_lab2/build/sam_bot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/trsa2024/ros2_lab2/build/sam_bot_description

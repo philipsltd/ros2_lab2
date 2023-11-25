@@ -1,0 +1,8 @@
+source;share/goal_sender/hook/cmake_prefix_path.ps1
+source;share/goal_sender/hook/cmake_prefix_path.dsv
+source;share/goal_sender/hook/cmake_prefix_path.sh
+source;share/goal_sender/local_setup.bash
+source;share/goal_sender/local_setup.dsv
+source;share/goal_sender/local_setup.ps1
+source;share/goal_sender/local_setup.sh
+source;share/goal_sender/local_setup.zsh

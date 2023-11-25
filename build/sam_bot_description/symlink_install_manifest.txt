@@ -1,4 +1,3 @@
-/home/trsa2024/ros2_lab2/install/sam_bot_description/share/sam_bot_description/src/NavigationGoalSender.py
 /home/trsa2024/ros2_lab2/install/sam_bot_description/share/sam_bot_description/src/description/sam_bot_description.urdf
 /home/trsa2024/ros2_lab2/install/sam_bot_description/share/sam_bot_description/src/object_detection.py
 /home/trsa2024/ros2_lab2/install/sam_bot_description/share/sam_bot_description/launch/__pycache__/nav2_navigation_launch.cpython-310.pyc

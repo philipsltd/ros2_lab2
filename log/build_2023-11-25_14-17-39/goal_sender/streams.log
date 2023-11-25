@@ -1,0 +1,51 @@
+[0.101s] Invoking command in '/home/trsa2024/ros2_lab2/build/goal_sender': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/trsa2024/ros2_lab2/src/goal_sender -DCMAKE_INSTALL_PREFIX=/home/trsa2024/ros2_lab2/install/goal_sender
+[0.406s] -- The C compiler identification is GNU 11.4.0
+[0.655s] -- The CXX compiler identification is GNU 11.4.0
+[0.672s] -- Detecting C compiler ABI info
+[0.782s] -- Detecting C compiler ABI info - done
+[0.788s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.792s] -- Detecting C compile features
+[0.793s] -- Detecting C compile features - done
+[0.800s] -- Detecting CXX compiler ABI info
+[0.904s] -- Detecting CXX compiler ABI info - done
+[0.912s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.913s] -- Detecting CXX compile features
+[0.915s] -- Detecting CXX compile features - done
+[0.919s] -- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.373s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[1.523s] -- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)
+[1.608s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.619s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.639s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.676s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.717s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.875s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.894s] -- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.999s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.001s] -- Added test 'lint_cmake' to check CMake code style
+[2.002s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.004s] -- Added test 'xmllint' to check XML markup files
+[2.007s] -- Configuring done
+[2.017s] -- Generating done
+[2.019s] -- Build files have been written to: /home/trsa2024/ros2_lab2/build/goal_sender
+[2.031s] Invoked command in '/home/trsa2024/ros2_lab2/build/goal_sender' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/trsa2024/ros2_lab2/src/goal_sender -DCMAKE_INSTALL_PREFIX=/home/trsa2024/ros2_lab2/install/goal_sender
+[2.034s] Invoking command in '/home/trsa2024/ros2_lab2/build/goal_sender': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/trsa2024/ros2_lab2/build/goal_sender -- -j4 -l4
+[2.102s] Invoked command in '/home/trsa2024/ros2_lab2/build/goal_sender' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/trsa2024/ros2_lab2/build/goal_sender -- -j4 -l4
+[2.143s] Invoking command in '/home/trsa2024/ros2_lab2/build/goal_sender': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/trsa2024/ros2_lab2/build/goal_sender
+[2.156s] -- Install configuration: ""
+[2.158s] -- Installing: /home/trsa2024/ros2_lab2/install/goal_sender/share/ament_index/resource_index/package_run_dependencies/goal_sender
+[2.159s] -- Installing: /home/trsa2024/ros2_lab2/install/goal_sender/share/ament_index/resource_index/parent_prefix_path/goal_sender
+[2.160s] -- Installing: /home/trsa2024/ros2_lab2/install/goal_sender/share/goal_sender/environment/ament_prefix_path.sh
+[2.160s] -- Installing: /home/trsa2024/ros2_lab2/install/goal_sender/share/goal_sender/environment/ament_prefix_path.dsv
+[2.161s] -- Installing: /home/trsa2024/ros2_lab2/install/goal_sender/share/goal_sender/environment/path.sh
+[2.161s] -- Installing: /home/trsa2024/ros2_lab2/install/goal_sender/share/goal_sender/environment/path.dsv
+[2.162s] -- Installing: /home/trsa2024/ros2_lab2/install/goal_sender/share/goal_sender/local_setup.bash
+[2.162s] -- Installing: /home/trsa2024/ros2_lab2/install/goal_sender/share/goal_sender/local_setup.sh
+[2.167s] -- Installing: /home/trsa2024/ros2_lab2/install/goal_sender/share/goal_sender/local_setup.zsh
+[2.168s] -- Installing: /home/trsa2024/ros2_lab2/install/goal_sender/share/goal_sender/local_setup.dsv
+[2.169s] -- Installing: /home/trsa2024/ros2_lab2/install/goal_sender/share/goal_sender/package.dsv
+[2.171s] -- Installing: /home/trsa2024/ros2_lab2/install/goal_sender/share/ament_index/resource_index/packages/goal_sender
+[2.172s] -- Installing: /home/trsa2024/ros2_lab2/install/goal_sender/share/goal_sender/cmake/goal_senderConfig.cmake
+[2.173s] -- Installing: /home/trsa2024/ros2_lab2/install/goal_sender/share/goal_sender/cmake/goal_senderConfig-version.cmake
+[2.173s] -- Installing: /home/trsa2024/ros2_lab2/install/goal_sender/share/goal_sender/package.xml
+[2.174s] Invoked command in '/home/trsa2024/ros2_lab2/build/goal_sender' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/trsa2024/ros2_lab2/build/goal_sender

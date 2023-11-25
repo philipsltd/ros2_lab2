@@ -1,0 +1,37 @@
+[0.756s] Invoking command in '/home/trsa2024/ros2_lab2/src/robot_control': PYTHONPATH=/home/trsa2024/ros2_lab2/build/robot_control/prefix_override:/home/trsa2024/ros2_lab2/install/robot_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/robot_control build --build-base /home/trsa2024/ros2_lab2/build/robot_control/build install --record /home/trsa2024/ros2_lab2/build/robot_control/install.log --single-version-externally-managed
+[0.928s] running egg_info
+[0.940s] writing ../../build/robot_control/robot_control.egg-info/PKG-INFO
+[0.940s] writing dependency_links to ../../build/robot_control/robot_control.egg-info/dependency_links.txt
+[0.941s] writing entry points to ../../build/robot_control/robot_control.egg-info/entry_points.txt
+[0.941s] writing requirements to ../../build/robot_control/robot_control.egg-info/requires.txt
+[0.941s] writing top-level names to ../../build/robot_control/robot_control.egg-info/top_level.txt
+[0.968s] reading manifest file '../../build/robot_control/robot_control.egg-info/SOURCES.txt'
+[0.969s] writing manifest file '../../build/robot_control/robot_control.egg-info/SOURCES.txt'
+[0.969s] running build
+[0.969s] running build_py
+[0.969s] copying robot_control/goal_send.py -> /home/trsa2024/ros2_lab2/build/robot_control/build/lib/robot_control
+[0.970s] copying robot_control/__init__.py -> /home/trsa2024/ros2_lab2/build/robot_control/build/lib/robot_control
+[0.970s] running install
+[0.970s] /home/trsa2024/.local/lib/python3.10/site-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.
+[0.970s] !!
+[0.970s] 
+[0.970s]         ********************************************************************************
+[0.970s]         Please avoid running ``setup.py`` directly.
+[0.970s]         Instead, use pypa/build, pypa/installer or other
+[0.971s]         standards-based tools.
+[0.971s] 
+[0.971s]         See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.
+[0.971s]         ********************************************************************************
+[0.971s] 
+[0.971s] !!
+[0.971s]   self.initialize_options()
+[0.974s] running install_lib
+[0.987s] running install_data
+[0.998s] copying package.xml -> /home/trsa2024/ros2_lab2/install/robot_control/share/robot_control
+[0.999s] running install_egg_info
+[1.011s] removing '/home/trsa2024/ros2_lab2/install/robot_control/lib/python3.10/site-packages/robot_control-0.0.1-py3.10.egg-info' (and everything under it)
+[1.012s] Copying ../../build/robot_control/robot_control.egg-info to /home/trsa2024/ros2_lab2/install/robot_control/lib/python3.10/site-packages/robot_control-0.0.1-py3.10.egg-info
+[1.013s] running install_scripts
+[1.133s] Installing goal_send script to /home/trsa2024/ros2_lab2/install/robot_control/lib/robot_control
+[1.133s] writing list of installed files to '/home/trsa2024/ros2_lab2/build/robot_control/install.log'
+[1.159s] Invoked command in '/home/trsa2024/ros2_lab2/src/robot_control' returned '0': PYTHONPATH=/home/trsa2024/ros2_lab2/build/robot_control/prefix_override:/home/trsa2024/ros2_lab2/install/robot_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/robot_control build --build-base /home/trsa2024/ros2_lab2/build/robot_control/build install --record /home/trsa2024/ros2_lab2/build/robot_control/install.log --single-version-externally-managed

@@ -1,0 +1,9 @@
+running egg_info
+creating ../../build/robot_control/my_robot_control.egg-info
+writing ../../build/robot_control/my_robot_control.egg-info/PKG-INFO
+writing dependency_links to ../../build/robot_control/my_robot_control.egg-info/dependency_links.txt
+writing entry points to ../../build/robot_control/my_robot_control.egg-info/entry_points.txt
+writing requirements to ../../build/robot_control/my_robot_control.egg-info/requires.txt
+writing top-level names to ../../build/robot_control/my_robot_control.egg-info/top_level.txt
+writing manifest file '../../build/robot_control/my_robot_control.egg-info/SOURCES.txt'
+error: package directory 'my_robot_control' does not exist

@@ -1,0 +1,9 @@
+/home/trsa2024/ros2_lab2/build/goal_sender/CMakeFiles/uninstall.dir
+/home/trsa2024/ros2_lab2/build/goal_sender/CMakeFiles/goal_sender_uninstall.dir
+/home/trsa2024/ros2_lab2/build/goal_sender/CMakeFiles/test.dir
+/home/trsa2024/ros2_lab2/build/goal_sender/CMakeFiles/edit_cache.dir
+/home/trsa2024/ros2_lab2/build/goal_sender/CMakeFiles/rebuild_cache.dir
+/home/trsa2024/ros2_lab2/build/goal_sender/CMakeFiles/list_install_components.dir
+/home/trsa2024/ros2_lab2/build/goal_sender/CMakeFiles/install.dir
+/home/trsa2024/ros2_lab2/build/goal_sender/CMakeFiles/install/local.dir
+/home/trsa2024/ros2_lab2/build/goal_sender/CMakeFiles/install/strip.dir

@@ -1,0 +1,20 @@
+[0.136s] Invoking command in '/home/trsa2024/ros2_lab2/build/goal_sender': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/trsa2024/ros2_lab2/install/robot_control:/home/trsa2024/ros2_lab2/install/my_robot_control:/opt/ros/humble /usr/bin/cmake --build /home/trsa2024/ros2_lab2/build/goal_sender -- -j4 -l4
+[0.194s] Invoked command in '/home/trsa2024/ros2_lab2/build/goal_sender' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/trsa2024/ros2_lab2/install/robot_control:/home/trsa2024/ros2_lab2/install/my_robot_control:/opt/ros/humble /usr/bin/cmake --build /home/trsa2024/ros2_lab2/build/goal_sender -- -j4 -l4
+[0.264s] Invoking command in '/home/trsa2024/ros2_lab2/build/goal_sender': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/trsa2024/ros2_lab2/install/robot_control:/home/trsa2024/ros2_lab2/install/my_robot_control:/opt/ros/humble /usr/bin/cmake --install /home/trsa2024/ros2_lab2/build/goal_sender
+[0.279s] -- Install configuration: ""
+[0.280s] -- Up-to-date: /home/trsa2024/ros2_lab2/install/goal_sender/share/ament_index/resource_index/package_run_dependencies/goal_sender
+[0.301s] -- Up-to-date: /home/trsa2024/ros2_lab2/install/goal_sender/share/ament_index/resource_index/parent_prefix_path/goal_sender
+[0.302s] -- Up-to-date: /home/trsa2024/ros2_lab2/install/goal_sender/share/goal_sender/environment/ament_prefix_path.sh
+[0.302s] -- Up-to-date: /home/trsa2024/ros2_lab2/install/goal_sender/share/goal_sender/environment/ament_prefix_path.dsv
+[0.303s] -- Up-to-date: /home/trsa2024/ros2_lab2/install/goal_sender/share/goal_sender/environment/path.sh
+[0.304s] -- Up-to-date: /home/trsa2024/ros2_lab2/install/goal_sender/share/goal_sender/environment/path.dsv
+[0.304s] -- Up-to-date: /home/trsa2024/ros2_lab2/install/goal_sender/share/goal_sender/local_setup.bash
+[0.304s] -- Up-to-date: /home/trsa2024/ros2_lab2/install/goal_sender/share/goal_sender/local_setup.sh
+[0.304s] -- Up-to-date: /home/trsa2024/ros2_lab2/install/goal_sender/share/goal_sender/local_setup.zsh
+[0.304s] -- Up-to-date: /home/trsa2024/ros2_lab2/install/goal_sender/share/goal_sender/local_setup.dsv
+[0.304s] -- Up-to-date: /home/trsa2024/ros2_lab2/install/goal_sender/share/goal_sender/package.dsv
+[0.304s] -- Up-to-date: /home/trsa2024/ros2_lab2/install/goal_sender/share/ament_index/resource_index/packages/goal_sender
+[0.305s] -- Up-to-date: /home/trsa2024/ros2_lab2/install/goal_sender/share/goal_sender/cmake/goal_senderConfig.cmake
+[0.307s] -- Up-to-date: /home/trsa2024/ros2_lab2/install/goal_sender/share/goal_sender/cmake/goal_senderConfig-version.cmake
+[0.307s] -- Up-to-date: /home/trsa2024/ros2_lab2/install/goal_sender/share/goal_sender/package.xml
+[0.308s] Invoked command in '/home/trsa2024/ros2_lab2/build/goal_sender' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/trsa2024/ros2_lab2/install/robot_control:/home/trsa2024/ros2_lab2/install/my_robot_control:/opt/ros/humble /usr/bin/cmake --install /home/trsa2024/ros2_lab2/build/goal_sender

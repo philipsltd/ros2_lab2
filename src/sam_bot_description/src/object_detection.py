@@ -10,9 +10,9 @@ class ObjectDetectionNode(Node):
     def init(self):
         super().init('object_detection_node')
         self.subscription = self.create_subscription(
-            Image, 'your_camera_topic', self.image_callback, 10)
+            Image, '/camera/image_raw', self.image_callback, 10)
         self.subscription  # prevent unused variable warning
-        self.publisher = self.create_publisher(Image, 'object_detection_result', 10)
+        self.publisher = self.create_publisher(Image, '/camera/cones_detected', 10)
         self.bridge = CvBridge()
 
     def image_callback(self, msg):
