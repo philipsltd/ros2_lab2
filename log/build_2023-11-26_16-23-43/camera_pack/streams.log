@@ -1,0 +1,38 @@
+[1.121s] Invoking command in '/home/trsa2024/ros2_lab2/src/camera_pack': PYTHONPATH=/home/trsa2024/ros2_lab2/build/camera_pack/prefix_override:/home/trsa2024/ros2_lab2/install/camera_pack/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/camera_pack build --build-base /home/trsa2024/ros2_lab2/build/camera_pack/build install --record /home/trsa2024/ros2_lab2/build/camera_pack/install.log --single-version-externally-managed
+[1.306s] running egg_info
+[1.318s] writing ../../build/camera_pack/camera_pack.egg-info/PKG-INFO
+[1.319s] writing dependency_links to ../../build/camera_pack/camera_pack.egg-info/dependency_links.txt
+[1.319s] writing entry points to ../../build/camera_pack/camera_pack.egg-info/entry_points.txt
+[1.320s] writing requirements to ../../build/camera_pack/camera_pack.egg-info/requires.txt
+[1.320s] writing top-level names to ../../build/camera_pack/camera_pack.egg-info/top_level.txt
+[1.343s] reading manifest file '../../build/camera_pack/camera_pack.egg-info/SOURCES.txt'
+[1.345s] writing manifest file '../../build/camera_pack/camera_pack.egg-info/SOURCES.txt'
+[1.345s] running build
+[1.345s] running build_py
+[1.346s] copying camera_pack/__init__.py -> /home/trsa2024/ros2_lab2/build/camera_pack/build/lib/camera_pack
+[1.346s] copying camera_pack/cone_detection.py -> /home/trsa2024/ros2_lab2/build/camera_pack/build/lib/camera_pack
+[1.346s] running install
+[1.347s] /home/trsa2024/.local/lib/python3.10/site-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.
+[1.347s] !!
+[1.348s] 
+[1.348s]         ********************************************************************************
+[1.348s]         Please avoid running ``setup.py`` directly.
+[1.349s]         Instead, use pypa/build, pypa/installer or other
+[1.349s]         standards-based tools.
+[1.349s] 
+[1.350s]         See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.
+[1.350s]         ********************************************************************************
+[1.350s] 
+[1.351s] !!
+[1.351s]   self.initialize_options()
+[1.352s] running install_lib
+[1.368s] running install_data
+[1.385s] copying resource/camera_pack -> /home/trsa2024/ros2_lab2/install/camera_pack/share/ament_index/resource_index/packages
+[1.386s] copying package.xml -> /home/trsa2024/ros2_lab2/install/camera_pack/share/camera_pack
+[1.386s] running install_egg_info
+[1.394s] removing '/home/trsa2024/ros2_lab2/install/camera_pack/lib/python3.10/site-packages/camera_pack-0.0.0-py3.10.egg-info' (and everything under it)
+[1.395s] Copying ../../build/camera_pack/camera_pack.egg-info to /home/trsa2024/ros2_lab2/install/camera_pack/lib/python3.10/site-packages/camera_pack-0.0.0-py3.10.egg-info
+[1.396s] running install_scripts
+[1.516s] Installing cone_detection script to /home/trsa2024/ros2_lab2/install/camera_pack/lib/camera_pack
+[1.516s] writing list of installed files to '/home/trsa2024/ros2_lab2/build/camera_pack/install.log'
+[1.542s] Invoked command in '/home/trsa2024/ros2_lab2/src/camera_pack' returned '0': PYTHONPATH=/home/trsa2024/ros2_lab2/build/camera_pack/prefix_override:/home/trsa2024/ros2_lab2/install/camera_pack/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/camera_pack build --build-base /home/trsa2024/ros2_lab2/build/camera_pack/build install --record /home/trsa2024/ros2_lab2/build/camera_pack/install.log --single-version-externally-managed

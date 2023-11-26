@@ -1,0 +1,2 @@
+[console_scripts]
+cone_detection = camera_pack.cone_detection:main

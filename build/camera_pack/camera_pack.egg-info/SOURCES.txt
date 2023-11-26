@@ -1,0 +1,16 @@
+package.xml
+setup.cfg
+setup.py
+../../build/camera_pack/camera_pack.egg-info/PKG-INFO
+../../build/camera_pack/camera_pack.egg-info/SOURCES.txt
+../../build/camera_pack/camera_pack.egg-info/dependency_links.txt
+../../build/camera_pack/camera_pack.egg-info/entry_points.txt
+../../build/camera_pack/camera_pack.egg-info/requires.txt
+../../build/camera_pack/camera_pack.egg-info/top_level.txt
+../../build/camera_pack/camera_pack.egg-info/zip-safe
+camera_pack/__init__.py
+camera_pack/cone_detection.py
+resource/camera_pack
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py
