@@ -209,7 +209,7 @@ local_costmap:
       inflation_layer:
         plugin: "nav2_costmap_2d::InflationLayer"
         cost_scaling_factor: 6.0 # CHANGE 3.0
-        inflation_radius: 0.25 # 0.55 mete mais espetro
+        inflation_radius: 0.25 # 0.55 varia a grossura
       voxel_layer:
         plugin: "nav2_costmap_2d::VoxelLayer"
         enabled: True
@@ -269,12 +269,10 @@ global_costmap:
       static_layer:
         plugin: "nav2_costmap_2d::StaticLayer"
         map_subscribe_transient_local: True
-        # inflation_radius: 0.1
       inflation_layer:
         plugin: "nav2_costmap_2d::InflationLayer"
         cost_scaling_factor: 5.0 # change 3.0
         inflation_radius: 0.45 # 0.55
-        # wall_thickness: 0.2 # novo
       always_send_full_costmap: True
   global_costmap_client:
     ros__parameters:
